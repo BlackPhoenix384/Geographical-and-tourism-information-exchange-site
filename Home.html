@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>
+        Home
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="menubar">
+        <button type ="button" class="locked">
+            Home
+        </button>
+        <button type ="button" onclick="gl()">
+            Location
+        </button>
+        <button type ="button" onclick="gc()">
+            Credit
+        </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="text">
+        <h2>
+            Welcome
+        </h2>
+        <hr>
+        <p>
+            In this site you can search locations or if you want the name of a location, just give the lat and lan to us and let us find it for you.
+        </p>
+        <br>
+    </div>
+    <script>
+        function gl(){
+            location.replace('loc.html');
+        }
+        function gc(){
+            location.replace('credit.html');
+        }
+    </script>
+</body>
+
+</html>
