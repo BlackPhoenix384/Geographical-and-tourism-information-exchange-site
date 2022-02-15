@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>
+        Location
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="menubar">
+        <button type ="button" onclick="gh()">
+            Home
+        </button>
+        <button type ="button" class="locked">
+            Location
+        </button>
+        <button type ="button" onclick="gc()">
+            Credit
+        </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.277584106532!2d51.36588521508279!3d35.768557132785645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e07bd8aa9073d%3A0x226ad8d7f987c57a!2sTehran%20Province%2C%20Tehran%2C%20Mahtab%2C%20Iran!5e0!3m2!1sen!2s!4v1644330078353!5m2!1sen!2s" width="1490" height="700" style="border:0;" allowfullscreen="" loading=""></iframe>
+    <!-- <script>
+        function initMap(){
+            var location = {lat:-25.363,lng:131.044};
+            var map = new google.maps.Map(document.getElementById('map'),{
+                zoom:4,
+                center:location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script> -->
+    <script>
+        function gh(){
+            location.replace('Home.html');
+        }
+        function gc(){
+            location.replace('credit.html');
+        }
+    </script>
+</body>
+
+</html>
